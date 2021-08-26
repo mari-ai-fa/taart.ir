@@ -8,7 +8,8 @@ summarylength = "20"
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
 disableLanguages = ["Fr"] # disable language from here
-publishDir = "../publish"
+# publish dir
+publishDir = "../public"
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
