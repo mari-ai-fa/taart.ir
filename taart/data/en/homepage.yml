@@ -1,0 +1,55 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "It's about style."
+  content : ""
+  image : "images/watch.png"
+  button:
+   enable : true
+   label : "Browse All Products"
+   link : "products"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Why Choose T A A R T"
+  image : "images/watch-2.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Designed By Professional"
+    icon : "tf-ion-ios-glasses-outline"
+    content : "All products are designed by Maryam.Ai, a professional with an academic background in industrial design. She has been active in the fashion industry since 2005."
+    
+    # feature item loop
+  - title : "Elegant Design"
+    icon : "tf-ion-ios-lightbulb-outline"
+    content : "The color palettes have been carefully selected for the best look."
+    
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Customer First"
+    icon : "tf-ion-ios-heart-outline"
+    content : "The customer is at the heart of our unique business model, which includes design, production, distribution, and sales, through our extensive retail network."
+
+    # feature item loop
+  - title : "High Quality"
+    icon : "tf-ion-ios-flask-outline"
+    content : "We value the quality of our product and make sure that the best ingredients have been used."
+
+#################################### Products ########################
+products:
+  enable : true
+  title : "Checkout Our All Products"
+
+
+################################## Subscription ###################
+subscription:
+  enable : true
+  bg_image : "images/call-to-action.jpg"
+  title : "Get Product Updates"
+  content : "Latest news, deals, and more."
+  placeholder : "Your Email Address Here"
